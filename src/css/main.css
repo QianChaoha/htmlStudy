@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+body{
+    background-color: #c0c0c0;
+}
+.top{
+    width: 100%;
+    height: 27px;
+    /*repeat-x 水平方向上重复*/
+    background: url("../img/top_bg.jpg") repeat-x;
+}
+.top_content{
+   /* width: 100px;
+   上下距离是0,左右距离自动，这样就会居中
+    margin: 0 auto;*/
+    width: 100%;
+    margin: 0 0 100px 100px;
+}
+/*.top_content li 表示定义的是top_content类下的li标记*/
+.top_content li{
+
+}
