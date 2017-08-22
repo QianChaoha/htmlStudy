@@ -1,25 +1,330 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: 12px;
 }
-body{
-    background-color: #c0c0c0;
+
+body {
+    background-color: #e2e2e2;
 }
-.top{
+
+.top {
     width: 100%;
     height: 27px;
     /*repeat-x 水平方向上重复*/
     background: url("../img/top_bg.jpg") repeat-x;
 }
-.top_content{
-   /* width: 100px;
-   上下距离是0,左右距离自动，这样就会居中
-    margin: 0 auto;*/
-    width: 100%;
-    margin: 0 0 100px 100px;
-}
-/*.top_content li 表示定义的是top_content类下的li标记*/
-.top_content li{
 
+.top_content {
+    /* width: 100px;
+    上下距离是0,左右距离自动，这样就会居中*/
+    margin: 0 auto;
+    width: 1000px;
+    /*上外边距,右外边距,下外边距,左外边距*/
+    /*使用下面的是不行的，他会在原有的width上增加宽度*/
+    /*margin-top: 0px;*/
+    /*margin-bottom: 0px;*/
+    /*margin-left: 100px;*/
+    /*margin-right: 100px;*/
+}
+
+/*.top_content li 表示定义的是top_content类下的li标记*/
+.top_content li {
+    list-style-image: url("../img/li_bg.gif");
+    float: right;
+    width: 70px;
+    /*line-height设置为所在盒子的height一致，可居中*/
+    line-height: 27px;
+}
+
+/*top_content类下的超链接的初始状态和访问时状态*/
+.top_content a:link, .top_content a:visited {
+    color: #888888;
+    /*不要下划线，没有任何修饰*/
+    text-decoration: none;
+}
+
+/*鼠标经过和点击超链接*/
+.top_content a:hover, .top_content a:active {
+    color: red;
+    /*不要下划线，没有任何修饰*/
+    text-decoration: none;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.logo {
+    height: 80px;
+    background: white;
+}
+
+.logo_left {
+    width: 200px;
+    float: left;
+}
+
+.logo_right {
+    width: 300px;
+    float: right;
+    height: 32px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.logo_right img {
+    /*设置图片的对齐方式*/
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.tel {
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: red;
+}
+
+.nav {
+    height: 40px;
+}
+
+.nav_left {
+    width: 10px;
+    /*background-image: url("../img/nav_left.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*上面两句等同于下面一句*/
+    background: url("../img/nav_left.jpg") no-repeat;
+
+}
+
+.nav_mid {
+    width: 980px;
+    background: url("../img/nav_bg.jpg") repeat-x;
+
+}
+
+.nav_right {
+    width: 10px;
+    background: url("../img/nav_right.jpg") no-repeat;
+
+}
+
+.nav_mid, .nav_left, .nav_right {
+    float: left;
+    height: 40px;
+}
+
+.nav_mid_left, .nav_mid_right {
+    float: left;
+}
+
+.nav_mid_left {
+    width: 680px;
+}
+
+.nav_mid_right {
+    width: 300px;
+}
+
+.nav_mid_left li {
+    float: left;
+    /*去除列表条目前标记*/
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav_mid_left a:link, .nav_mid_left a:visited {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
+
+.nav_mid_left a:hover, .nav_mid_left a:active {
+    text-decoration: none;
+    color: yellow;
+    font-size: 16px;
+    font-family: 微软雅黑;
+}
+
+.search_text {
+    width: 190px;
+    height: 25px;
+    margin-top: 5px;
+    /*background-image: ;*/
+    /*background-repeat: ;*/
+    /*background-position: ;*/
+    background: url("../img/search.jpg") no-repeat right center;
+    background-color: white;
+    /*因为背景图片就是25px*/
+    padding-right: 25px;
+    /*solid 实线*/
+    border: 1px solid white;
+}
+
+.ad {
+    height: 310px;
+    /*超出ad的div后就隐藏，由于此div高度为310，图片的高度也是310，所以只会显示一张*/
+    overflow: hidden;
+}
+
+.main {
+    height: 250px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.news {
+    width: 340px;
+    background-color: white;
+}
+
+.products {
+    width: 410px;
+    margin: 0 7px;
+}
+
+.sidebar {
+    width: 230px;
+}
+
+/*边框线的宽度不在width里面*/
+.news, .products, .sidebar {
+    border: 1px solid #e8e8e8;
+    float: left;
+    height: 250px;
+}
+
+.title {
+    height: 35px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.title_left {
+    width: 70%;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.title_right{
+    width: 20%;
+    float: right;
+    line-height: 35px;
+}
+.title_right a{
+    text-decoration: none;
+    color: #AEC1CC;
+}
+.pic_news {
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.pic_news img, .product_list img {
+    float: left;
+    margin: 0 5px;
+}
+
+.pic_news a, .product_list a {
+    color: #C00;
+    text-decoration: none;
+}
+.news_list {
+    /*height:90px;*/
+    margin-top: 20px;
+}
+.news_list li {
+    /*列表前面的图标*/
+    background: url(../img/list.jpg) no-repeat;
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #CCC;
+    height: 17px;
+    line-height: 17px;
+}
+.news_list a:link, .news_list a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.news_list a:hover, .news_list a:active {
+    color: #F00;
+    text-decoration: none;
+}
+.news_list span {
+    float: right;
+    color: #999;
+}
+.news_list a:link, .news_list a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.news_list a:hover, .news_list a:active {
+    color: #F00;
+    text-decoration: none;
+}
+.product_list {
+    height: 120px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.product_type {
+    width: 372px;
+    height: 37px;
+    background: url(../img/product_type_bg.jpg) no-repeat;
+    margin: 20px auto;
+}
+.product_type li {
+    list-style-type: none;
+    float: left;
+    line-height: 37px;
+    /*	width:65px;
+*/	text-align: center;
+    margin: 0 15px;
+}
+.video {
+    height: 185px;
+    margin-bottom: 10px;
+    border: 1px solid #E8E8E8;
+}
+.video_content {
+    height: 150px;
+}
+.service {
+    height: 55px;
+    border: 1px solid #E8E8E8;
+}
+.copyright {
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background-color: #E8e8E8;
+    margin-top: 10px;
+}
+.copyright_content {
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.copyright_content li {
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    text-align: center;
+    background: url(../img/line.png) no-repeat right center;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height: 30px;
+    color: #999;
+}
+.copyright_content li ul li {
+    font-size: 14px;
 }
