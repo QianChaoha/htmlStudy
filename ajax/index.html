@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div class="submit">请求服务器</div>
+<input type="button" value="请求服务器">
+<script type="text/javascript">
+//    document.querySelector('input').onclick=function () {
+        var xmlHttpPost=new XMLHttpRequest();
+        xmlHttpPost.open('get','https://www.baidu.com/');
+        xmlHttpPost.send();
+        xmlHttpPost.onreadystatechange=function () {
+            if (xmlHttpPost.readyState==4){
+                alert(xmlHttpPost.responseText);
+                alert(xmlHttpPost.responseType);
+            }
+        }
+//    }
+</script>
+</body>
+</html>

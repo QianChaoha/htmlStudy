@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<canvas
+        id="canvas"
+        width="200"
+        height="200"
+        style="border:solid red 1px; ">
+</canvas>
+<img src="./img/1.png" width="100" height="100" id="img">
+<script type="text/javascript">
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+    context.fillStyle = '#ff0000';
+    //画矩形
+    //context.fillRect(0,0,100,100);
+    //画线 定义开始坐标(0,0), 和结束坐标 (200,100)。然后使用 stroke() 方法来绘制线条:
+    context.moveTo(100, 100);
+    context.lineTo(200, 200);
+    context.stroke();
+    //beginPath() 丢弃任何当前定义的路径并且开始一条新的路径。它把当前的点设置为 (0,0)。
+    context.beginPath();
+    //arc(x,y,r,start,stop)
+    context.arc(100, 100, 50, 0, 2 * Math.PI);
+    context.stroke();
+    //画文字
+    //fillText(text,x,y) - 在 canvas 上绘制实心的文本
+    //strokeText(text,x,y) - 在 canvas 上绘制空心的文本
+    context.font = "30px arial";
+    context.fillText("haha", 100, 100);
+    context.strokeText("haha", 100, 150);
+    //渐变
+    //画图像
+    //drawImage(image,x,y)
+    var img=document.getElementById('img');
+    context.drawImage(img,160,160);
+</script>
+</body>
+</html>
