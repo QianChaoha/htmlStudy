@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<audio src="../asserts/2.mp3" controls id="player"></audio>
+<br/>
+<input type="button" id="btPlay" value="播放/暂停"/><span id="showTime"/>
+<script type="text/javascript">
+    var player = document.getElementById('player');
+    var btPlay = document.getElementById('btPlay');
+    var showTime = document.getElementById('showTime');
+    btPlay.onclick = function () {
+        if (player.paused) {
+            player.play();
+        } else {
+            player.pause();
+        }
+    };
+    player.ontimeupdate=function () {
+        showTime.innerHTML=player.currentTime+'/'+player.duration+'秒';
+    };
+</script>
+</body>
+</html>
