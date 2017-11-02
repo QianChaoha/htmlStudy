@@ -94,6 +94,7 @@
             target = -this.index * 490; // 目标位置 就是用当前的索引号乘以  一个盒子的宽度
         }
     }
+    //鼠标放在下方的提示图片上时，上面图片实现移动动画
     setInterval(function() {
         leader = leader + (target - leader ) / 10;
         ul.style.left = leader + "px";

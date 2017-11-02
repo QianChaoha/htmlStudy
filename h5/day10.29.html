@@ -30,8 +30,11 @@
     //fillText(text,x,y) - 在 canvas 上绘制实心的文本
     //strokeText(text,x,y) - 在 canvas 上绘制空心的文本
     context.font = "30px arial";
-    context.fillText("haha", 100, 100);
-    context.strokeText("haha", 100, 150);
+	//设置最上方为文字的锚点
+	context.textBaseline='top';
+    context.fillText("haha", 0, 0);
+
+    context.strokeText("haha", 100, 100);
     //渐变
     //画图像
     //drawImage(image,x,y)

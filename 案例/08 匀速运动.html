@@ -26,10 +26,14 @@
     var num = 0;
     var timer = null;
     btn.onclick = function() {
+        //setInterval(code,millisec)
+        //每隔millisec毫秒执行一次代码code
         timer = setInterval(function(){
             num++;
             if(num >=500)
             {
+                //setInterval() 方法会不停地调用函数，直到 clearInterval() 被调用或窗口被关闭。
+                // 由 setInterval() 返回的 ID 值可用作 clearInterval() 方法的参数
                 clearInterval(timer);
             }
             else
