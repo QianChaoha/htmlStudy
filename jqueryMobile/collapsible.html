@@ -16,22 +16,23 @@
     </div>
 
     <div data-role="main" class="ui-content">
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
+        <!--必须一个是标题h*-->
+       <div data-role="collapsible">
+           <h1>head</h1>
+           <p>展开了</p>
+       </div>
+
+        <!--data-content-theme="false"展开后去除内容部分的边框-->
+       <div data-role="collapsible" data-content-theme="false">
+           <h1>head</h1>
+           <p>展开了</p>
+       </div>
+
+        <!--默认展开-->
+        <div data-role="collapsible" data-collapsed="false">
+            <h1>head</h1>
+            <p>展开了</p>
+        </div>
     </div>
 
     <div data-role="footer" data-position="fixed">

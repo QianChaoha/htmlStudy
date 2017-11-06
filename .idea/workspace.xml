@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f14c93-969f-44e0-978b-a5ab362192be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryMobile/checkbox-radiobutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jqueryMobile/collapsible.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqueryMobile/index.html" afterPath="$PROJECT_DIR$/jqueryMobile/index.html" />
     </list>
     <ignored path="htmlSpace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,33 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jqueryMobile/index.html">
+      <file leaf-file-name="checkbox-radiobutton.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqueryMobile/checkbox-radiobutton.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="514">
+              <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jqueryMobile/lib/jqueryMobile/jquery.js">
+      <file leaf-file-name="collapsible.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jqueryMobile/collapsible.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="10264" column="13" selection-start-line="10264" selection-start-column="7" selection-end-line="10264" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="595">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.mobile-1.4.5.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jqueryMobile/lib/jqueryMobile/jquery.mobile-1.4.5.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqueryMobile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="757">
+              <caret line="41" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqueryMobile/button.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -91,6 +102,12 @@
         <option value="$PROJECT_DIR$/h5/音乐播放器.html" />
         <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/jqueryMobile/index.html" />
+        <option value="$PROJECT_DIR$/jqueryMobile/goto-next-page.html" />
+        <option value="$PROJECT_DIR$/jqueryMobile/show-dialog.html" />
+        <option value="$PROJECT_DIR$/jqueryMobile/button.html" />
+        <option value="$PROJECT_DIR$/jqueryMobile/checkbox-radiobutton.html" />
+        <option value="$PROJECT_DIR$/jqueryMobile/collapsiable.html" />
+        <option value="$PROJECT_DIR$/jqueryMobile/collapsible.html" />
       </list>
     </option>
   </component>
@@ -189,6 +206,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htmlStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htmlStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqueryMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -211,27 +242,27 @@
       <recent name="D:\work\htmlSpace\h5\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\htmlStudy\htmlStudy\jqueryMobile" />
       <recent name="E:\htmlStudy\htmlStudy\jqueryMobile\lib\jqueryMobile" />
       <recent name="E:\htmlStudy\htmlStudy\asserts" />
       <recent name="D:\work\htmlSpace\ajax" />
       <recent name="D:\work\htmlSpace\src\js" />
-      <recent name="D:\work\htmlSpace\src\img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration default="false" name="左右焦点图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/htmlStudy/案例/11 左右轮播图/左右焦点图.html">
+  <component name="RunManager">
+    <configuration default="false" name="goto-next-page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlStudy/jqueryMobile/goto-next-page.html">
       <method />
     </configuration>
-    <configuration default="false" name="左右焦点图 js部分.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/htmlStudy/案例/11 左右轮播图/左右焦点图 js部分.html">
+    <configuration default="false" name="show-dialog.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlStudy/jqueryMobile/show-dialog.html">
       <method />
     </configuration>
-    <configuration default="false" name="音乐播放器.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/htmlStudy/h5/音乐播放器.html">
+    <configuration default="false" name="button.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlStudy/jqueryMobile/button.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/htmlStudy/src/index.html">
+    <configuration default="false" name="checkbox-radiobutton.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlStudy/jqueryMobile/checkbox-radiobutton.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlStudy/jqueryMobile/index.html">
+    <configuration default="false" name="collapsible.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htmlStudy/jqueryMobile/collapsible.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -288,19 +319,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.左右焦点图.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.左右焦点图 js部分.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.音乐播放器.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.goto-next-page.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.show-dialog.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.button.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.checkbox-radiobutton.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.collapsible.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.音乐播放器.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.左右焦点图 js部分.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.左右焦点图.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.collapsible.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.checkbox-radiobutton.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.button.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.show-dialog.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.goto-next-page.html" />
       </list>
     </recent_temporary>
   </component>
@@ -346,12 +377,12 @@
       <workItem from="1509677331381" duration="6907000" />
       <workItem from="1509933192168" duration="40000" />
       <workItem from="1509949114608" duration="1497000" />
-      <workItem from="1509950924078" duration="8224000" />
+      <workItem from="1509950924078" duration="19755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96790000" />
+    <option name="totallyTimeSpent" value="108321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1700" height="1042" extended-state="0" />
@@ -393,35 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/mf-pattern/mF_YSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/mf-pattern/mF_YSlider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-785">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/product_type_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/css.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/app.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/li_bg.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -728,10 +730,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile/goto-next-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile/show-dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile/checkbox-radiobutton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jqueryMobile/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="757">
+          <caret line="41" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqueryMobile/collapsible.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

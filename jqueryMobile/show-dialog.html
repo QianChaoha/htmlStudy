@@ -11,33 +11,24 @@
 <body>
 
 <div data-role="page" id="pageone">
-    <div data-role="header" data-position="fixed">
+    <div data-role="header" >
         <h1>欢迎来到我的主页</h1>
     </div>
 
     <div data-role="main" class="ui-content">
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
-        <p>欢迎!  </p>
+        <p>这是第一个页面。点击显示弹框。</p>
+        <!--指定了跳转的页面和跳转的效果-->
+        <a href="#myPopup"  data-transition="slide">显示弹框</a>
     </div>
 
-    <div data-role="footer" data-position="fixed">
+    <div data-role="footer" >
         <h1>底部文本</h1>
     </div>
 </div>
 
+
+<div data-role="dialog" id="myPopup">
+    <p>这是一个简单的弹窗</p>
+</div>
 </body>
 </html>

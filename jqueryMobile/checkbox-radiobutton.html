@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <script type="text/javascript" src="./lib/jqueryMobile/jquery.js"></script>
+    <script type="text/javascript" src="./lib/jqueryMobile/jquery.mobile-1.4.5.js"></script>
+    <link href="./lib/jqueryMobile/jquery.mobile-1.4.5.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+    <div data-role="header" data-position="fixed">
+        <h1>欢迎来到我的主页</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <!--<input type="checkbox"/>IOS-->
+        <label>
+            <input type="checkbox"/>IOS
+        </label>
+        <!--一组checkbox-->
+        <fieldset data-role="controlgroup">
+            <label>
+                <input type="checkbox"/>IOS
+            </label>
+            <label>
+                <input type="checkbox" data-theme="b"/>Android
+            </label>
+        </fieldset>
+        <!--横向-->
+        <fieldset data-role="controlgroup" data-type="horizontal">
+            <label>
+                <input type="checkbox"/>IOS
+            </label>
+            <label>
+                <input type="checkbox"/>Android
+            </label>
+        </fieldset>
+
+        <!--name要一样，同样name的只能选择一个-->
+        <fieldset data-role="controlgroup" data-type="horizontal">
+            <label>
+                <input type="radio" name="r1" id="man"/>男
+            </label>
+            <label>
+                <input type="radio"  name="r1"id="woman"/>女
+            </label>
+        </fieldset>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <h1>底部文本</h1>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <script type="text/javascript" src="./lib/jqueryMobile/jquery.js"></script>
+    <script type="text/javascript" src="./lib/jqueryMobile/jquery.mobile-1.4.5.js"></script>
+    <link href="./lib/jqueryMobile/jquery.mobile-1.4.5.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+    <div data-role="header" >
+        <h1>欢迎来到我的主页</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+       <!--创建button的三种方式-->
+        <button>按钮</button>
+        <input type="button" value="按钮"/>
+        <a type="button" class="ui-btn ui-shadow">按钮</a>
+        <!--button默认独占一行,但是指定了ui-btn-inline后可以几个按钮一起在一行-->
+        <a href="#" class="ui-btn ui-btn-inline">按钮1</a>
+        <a href="#" class="ui-btn ui-btn-inline">按钮2</a>
+        <a href="#" class="ui-btn ui-btn-inline">按钮3</a>
+        <!--指定了ui-btn-inline属性后虽然在一行，但是彼此之间有间隔-->
+        <div data-role="controlgroup">
+            <a href="#" class="ui-btn">按钮7</a>
+            <a href="#" class="ui-btn">按钮8</a>
+            <a href="#" class="ui-btn">按钮9</a>
+        </div>
+
+        <div data-role="controlgroup">
+            <a href="#" class="ui-btn ui-btn-inline">按钮4</a>
+            <a href="#" class="ui-btn ui-btn-inline">按钮5</a>
+            <a href="#" class="ui-btn ui-btn-inline">按钮6</a>
+        </div>
+        <!--换颜色,data-type默认是竖直的，有间隔，改为横向，去除间隔-->
+        <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" class="ui-btn ui-btn-inline ui-btn-a ">按钮1</a>
+            <a href="#" class="ui-btn ui-btn-inline ui-btn-b">按钮2</a>
+        </div>
+    </div>
+
+    <div data-role="footer" >
+        <h1>底部文本</h1>
+    </div>
+</div>
+
+<div data-role="page" id="pagetwo">
+<div data-role="header">
+<h1>欢迎来到我的主页</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<p>这是第二个页面。点击以下链接跳转到第一个页面。</p>
+<a href="#pageone" data-transition="slide">跳转到第一个页面</a>
+</div>
+
+<div data-role="footer">
+<h1>底部文本</h1>
+</div>
+</div>
+</body>
+</html>
