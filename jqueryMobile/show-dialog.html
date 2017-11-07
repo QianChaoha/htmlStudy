@@ -7,6 +7,7 @@
     <script type="text/javascript" src="./lib/jqueryMobile/jquery.js"></script>
     <script type="text/javascript" src="./lib/jqueryMobile/jquery.mobile-1.4.5.js"></script>
     <link href="./lib/jqueryMobile/jquery.mobile-1.4.5.css" rel="stylesheet"/>
+    <link href="./css/show-dialog.css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -18,7 +19,8 @@
     <div data-role="main" class="ui-content">
         <p>这是第一个页面。点击显示弹框。</p>
         <!--指定了跳转的页面和跳转的效果-->
-        <a href="#myPopup"  data-transition="slide">显示弹框</a>
+        <!--设置data-rel="dialog"实现跳转dialog页面-->
+        <a href="#myPopup"  data-transition="slide" data-rel="dialog">显示弹框</a>
     </div>
 
     <div data-role="footer" >
@@ -27,8 +29,18 @@
 </div>
 
 
-<div data-role="dialog" id="myPopup">
-    <p>这是一个简单的弹窗</p>
+<div id="myPopup">
+    <div data-role="header" >
+        <h1>标题</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>这是一个简单的弹窗</p>
+    </div>
+
+    <div data-role="footer" style="height: 40px">
+        <span class="foot-btn">确定</span><span class="foot-btn">取消</span>
+    </div>
 </div>
 </body>
 </html>
